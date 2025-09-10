@@ -1,5 +1,4 @@
 package rvt;
-Package rvt;
 import java.util.Scanner;
 public class program {
     public static void main(String[] args) {
@@ -16,5 +15,7 @@ public class program {
         
         System.out.println(message);
         System.out.println(message);
+
+        scanner.close();
     }
 }
