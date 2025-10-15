@@ -28,6 +28,7 @@ public class Chapter19 {
         for (int i = start; i <= end; i++) {
             System.out.println(i);
         }
+        scanner.close();
 
         System.out.println(); // tukša rinda noformējumam
     }
@@ -50,5 +51,7 @@ public class Chapter19 {
 
         System.out.println("Loop Sum = " + loopSum);
         System.out.println("Formula Sum = " + formulaSum);
+        
+        scanner.close();
     }
 }
