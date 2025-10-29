@@ -33,6 +33,7 @@ public class Delikatese {
         System.out.println(prece + "   " + cena);
         System.out.println("piegāde   " + piegade);
         System.out.println("kopā      " + kopa);
+        scanner.close();
     }
 }
     
